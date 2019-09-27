@@ -1,0 +1,27 @@
+[submodule "trompeloeil"]
+	path = trompeloeil
+	url = https://github.com/rollbear/trompeloeil/
+[submodule "cista"]
+	path = cista
+	url = https://github.com/felixguendling/cista
+[submodule "doctest"]
+	path = doctest
+	url = https://github.com/onqtam/doctest
+[submodule "Catch2"]
+	path = Catch2
+	url = https://github.com/catchorg/Catch2/
+[submodule "spdlog"]
+	path = spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "flatbuffers"]
+	path = flatbuffers
+	url = https://github.com/google/flatbuffers
+[submodule "magic_enum"]
+	path = magic_enum
+	url = https://github.com/Neargye/magic_enum
+[submodule "nameof"]
+	path = nameof
+	url = https://github.com/Neargye/nameof
+[submodule "mio"]
+	path = mio
+	url = https://github.com/mandreyel/mio
