@@ -1,6 +1,6 @@
 [submodule "trompeloeil"]
 	path = trompeloeil
-	url = https://github.com/rollbear/trompeloeil/
+	url = https://github.com/rollbear/trompeloeil
 [submodule "cista"]
 	path = cista
 	url = https://github.com/felixguendling/cista
