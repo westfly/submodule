@@ -37,3 +37,24 @@
 [submodule "dbg-macro"]
 	path = dbg-macro
 	url = https://github.com/sharkdp/dbg-macro
+[submodule "fbthrift"]
+	path = fbthrift
+	url = https://github.com/facebook/fbthrift
+[submodule "range-v3"]
+	path = range-v3
+	url = https://github.com/ericniebler/range-v3.git
+[submodule "breakpad"]
+	path = breakpad
+	url = https://github.com/google/breakpad
+[submodule "cppcoro"]
+	path = cppcoro
+	url = https://github.com/lewissbaker/cppcoro
+[submodule "arrow"]
+	path = arrow
+	url = https://github.com/apache/arrow
+[submodule "libco"]
+	path = libco
+	url = https://github.com/tencent/libco
+[submodule "libaco"]
+	path = libaco
+	url = https://github.com/hnes/libaco
