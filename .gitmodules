@@ -58,3 +58,9 @@
 [submodule "libaco"]
 	path = libaco
 	url = https://github.com/hnes/libaco
+[submodule "nghttp2"]
+	path = nghttp2
+	url = https://github.com/nghttp2/nghttp2
+[submodule "dry-comparisons"]
+	path = dry-comparisons
+	url = https://github.com/rollbear/dry-comparisons
