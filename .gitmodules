@@ -64,3 +64,21 @@
 [submodule "dry-comparisons"]
 	path = dry-comparisons
 	url = https://github.com/rollbear/dry-comparisons
+[submodule "cpprestsdk"]
+	path = cpprestsdk
+	url = https://github.com/Microsoft/cpprestsdk.git
+[submodule "proxygen"]
+	path = proxygen
+	url = https://github.com/facebook/proxygen
+[submodule "folly"]
+	path = folly
+	url = https://github.com/facebook/folly.git
+[submodule "wangle"]
+	path = wangle
+	url = https://github.com/facebook/wangle
+[submodule "fizz"]
+	path = fizz
+	url = https://github.com/facebookincubator/fizz
+[submodule "scnlib"]
+	path = scnlib
+	url = https://github.com/eliaskosunen/scnlib
