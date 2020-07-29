@@ -54,6 +54,59 @@ int main() {
 ### doctest
 
 [doctest](https://github.com/onqtam/doctest)
+doctest用于单元测试和TDD的功能最丰富的C98 / C11单个头文件测试框架。
+
+doctest是一个新的C++测试框架，但与其他功能丰富的替代方法相比，它在编译时间（按数量级）和运行时间上都是最快的。
+
+doctest和其他测试框架之间的主要区别在于它很轻而且没有侵入性。
+
+#### 单元测试 ####
+
+```cpp
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
+
+int factorial(int number) { 
+	return number <= 1 ? number : factorial(number - 1) * number;
+}
+
+TEST_CASE("testing the factorial function") {
+    CHECK(factorial(1) == 1);
+    CHECK(factorial(2) == 2);
+    CHECK(factorial(3) == 6);
+    CHECK(factorial(10) == 3628800);
+}
+```
+
+在gtest中的 CHECK宏都可以方便的支持，支持SUB_CASE的
+
+```cpp
+TEST_CASE("vectors can be sized and resized") {
+    std::vector<int> v(5);
+
+    REQUIRE(v.size() == 5);
+    REQUIRE(v.capacity() >= 5);
+
+    SUBCASE("adding to the vector increases it's size") {
+        v.push_back(1);
+
+        CHECK(v.size() == 6);
+        CHECK(v.capacity() >= 6);
+    }
+    SUBCASE("reserving increases just the capacity") {
+        v.reserve(6);
+
+        CHECK(v.size() == 5);
+        CHECK(v.capacity() >= 6);
+    }
+}
+```
+
+
+
+#### 性能测试 ####
+
+
 
 ### Catch2
 
@@ -61,7 +114,7 @@ int main() {
 
 ## mio ##
 
-mapfile
+mapfile 支持
 
 ## nameof ##
 
@@ -82,6 +135,18 @@ NAMEOF(somevar.some_method<int>()) -> "some_method"
 
 与protobuf 结合一下或者thrift。
 
+### dry-compansons ###
+
+用tuple方式，实现了 any_of | none_of|  and_of 三个原语，用于减少XX的表达
+
+### range-v3 ###
+
+更好的
+
+###  ###
+
+
+
 ## CompileNeeded
 
 [spdlog](https://github.com/gabime/spdlog)
@@ -94,7 +159,37 @@ NAMEOF(somevar.some_method<int>()) -> "some_method"
 
 flatbuffers 采用内存式存储，反序列化基本上不耗时，实现为指针强制转换，但对于非POD的类型，可能需要二次指针访问，有cache失效的问题。
 
+### fbthrift ###
 
+Thrift 被提交给Apache维护了，facebook又搞了一个分支。
+
+### ps-lite ###
+
+mxnet的底层框架，用于通信，参考ps-lite源码分析。
+
+### mimalloc ###
+
+号称超越 TCMalloc。
+
+### pybind11 ###
+
+python关联C++11的相关东东
+
+### scnlib ###
+
+C++11时代的scanf，更好的容错。
+
+### wangle ###
+
+facebook出品的
+
+### libtree ###
+
+一个古老的树形结构，完全用C实现，包括avl_tree |splay_tree
+
+### fizz ###
+
+facebook出品
 
 ## arrow ##
 
