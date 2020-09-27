@@ -100,3 +100,9 @@
 [submodule "magic_get"]
 	path = magic_get
 	url = https://github.com/apolukhin/magic_get/
+[submodule "abseil-cpp"]
+	path = abseil-cpp
+	url = https://github.com/abseil/abseil-cpp
+[submodule "incubator-brpc"]
+	path = incubator-brpc
+	url = https://github.com/apache/incubator-brpc
