@@ -58,6 +58,9 @@
 [submodule "libaco"]
 	path = libaco
 	url = https://github.com/hnes/libaco
+[submodule "msgpack-c"]
+	path = msgpack-c
+	url = https://github.com/msgpack/msgpack-c.git
 [submodule "nghttp2"]
 	path = nghttp2
 	url = https://github.com/nghttp2/nghttp2
