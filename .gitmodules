@@ -61,3 +61,45 @@
 [submodule "msgpack-c"]
 	path = msgpack-c
 	url = https://github.com/msgpack/msgpack-c.git
+[submodule "nghttp2"]
+	path = nghttp2
+	url = https://github.com/nghttp2/nghttp2
+[submodule "dry-comparisons"]
+	path = dry-comparisons
+	url = https://github.com/rollbear/dry-comparisons
+[submodule "cpprestsdk"]
+	path = cpprestsdk
+	url = https://github.com/Microsoft/cpprestsdk.git
+[submodule "proxygen"]
+	path = proxygen
+	url = https://github.com/facebook/proxygen
+[submodule "folly"]
+	path = folly
+	url = https://github.com/facebook/folly.git
+[submodule "wangle"]
+	path = wangle
+	url = https://github.com/facebook/wangle
+[submodule "fizz"]
+	path = fizz
+	url = https://github.com/facebookincubator/fizz
+[submodule "scnlib"]
+	path = scnlib
+	url = https://github.com/eliaskosunen/scnlib
+[submodule "mimalloc"]
+	path = mimalloc
+	url = https://github.com/microsoft/mimalloc
+[submodule "pybind11"]
+	path = pybind11
+	url = https://github.com/pybind/pybind11
+[submodule "fmt"]
+	path = fmt
+	url = https://github.com/fmtlib/fmt
+[submodule "incubator-mxnet"]
+	path = incubator-mxnet
+	url = https://github.com/apache/incubator-mxnet
+[submodule "blobify"]
+	path = blobify
+	url = https://github.com/neobrain/blobify
+[submodule "magic_get"]
+	path = magic_get
+	url = https://github.com/apolukhin/magic_get/
